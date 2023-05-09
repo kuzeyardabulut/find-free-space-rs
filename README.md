@@ -12,8 +12,11 @@ This will build the program in release mode and generate an executable file in t
 
 ## Usage
 To use the program, run the executable file with the following command-line arguments:
+
  `Usage: .\find_empty_space.exe <empty space lenght> `
  `Example: .\find_empty_space.exe 1000`
+
+
 Here, [data length] is the length of the data you want to find a space for in memory.
 
 The program will scan the memory of the process and print information about the modules loaded in the process. If a free space of the specified size is found, the program will print its address in memory.
