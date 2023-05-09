@@ -1,2 +1,4 @@
-# find-free-space-rs
-Tries to find free memory spaces on processes.
+# Find MEM_FREE Spaces with Rust
+The code provided is a Rust program that interacts with the Windows API to inspect the memory of a process and find a free memory space of a specific size within it. The program first defines several functions, including get_free_space, which finds a free space in memory of a specific size, and get_process_handle, which obtains a handle to a process based on its ID. The check_process function is then defined, which takes the process ID and the desired data length as arguments and uses the other functions to inspect the process's memory and find the free space.
+
+To find a free memory space of a specific size, the program scans the process's memory region by region, starting at the provided base address and continuing until the last address minus the data length. If a memory region is free and has a size greater than or equal to the desired data length, the program returns the starting address of the region. If no free space of the required size is found, the function returns an error message.
