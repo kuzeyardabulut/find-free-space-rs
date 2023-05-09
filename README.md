@@ -14,6 +14,7 @@ This will build the program in release mode and generate an executable file in t
 To use the program, run the executable file with the following command-line arguments:
 
  `Usage: .\find_empty_space.exe <empty space lenght>`
+ 
  `Example: .\find_empty_space.exe 1000`
 
 
