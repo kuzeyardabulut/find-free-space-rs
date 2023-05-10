@@ -6,7 +6,8 @@ To find a free memory space of a specific size, the program scans the process's 
 ## Installation
 This program requires Rust to be installed. If you don't have Rust installed, you can download it from the official website.
 
-After installing Rust, clone this repository and navigate to the root directory of the project. Then, run the `cargo build --release` command to build the program.
+After installing Rust, clone this repository and navigate to the root directory of the project. Then, run the 
+`cargo build --release` command to build the program.
 
 This will build the program in release mode and generate an executable file in the target/release/ directory.
 
